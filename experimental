@@ -16,7 +16,5 @@ int main{
     
     printf("Total value:%d\n",a+b);
     
-    printf("Greetingsadded");
-    
     return 0;
 }
