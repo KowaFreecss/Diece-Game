@@ -12,11 +12,11 @@ int main{
     scanf("%s",name);
     printf("Hello, %s!",name);
     
-    printf("Rolling the dice...\nDie1:%d \nDie2%d",a,b);
+    printf("Rolling the diece...\nDie1:%d \nDie2%d",a,b);
     
     printf("Total value:%d\n",a+b);
     
-    if(a+b<=7){
+    if(a+b>=7){
     printf("You, won!!");
     }else{
     printf("You, lost");
