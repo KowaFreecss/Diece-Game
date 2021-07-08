@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main{
+    int a,b;
+    
+    srand(time(NULL));
+    
+    a=rand()%6+1;
+    b=rand()%6+1;
+    
+    printf("Rolling the dice...\nDie1:%d \nDie2%d",a,b);
+    
+    printf("Total value:%d\n",a+b);
+    
+    return 0;
+}
